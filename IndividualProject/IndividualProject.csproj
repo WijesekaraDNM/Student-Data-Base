@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\1.png" />
+    <None Remove="Images\122375.jpg" />
+    <None Remove="Images\2.png" />
+    <None Remove="Images\3.png" />
+    <None Remove="Images\4.png" />
+    <None Remove="Images\6.png" />
+    <None Remove="Images\7.png" />
+    <None Remove="Images\8.png" />
+    <None Remove="Images\9.png" />
+    <None Remove="Images\Logo %282%29.png" />
+    <None Remove="Images\Logo of the university of Ruhuna %282%29.jpg" />
+    <None Remove="Images\Logo.jpg" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\Pro1.jpg" />
+    <None Remove="Images\Pro2.jpg" />
+    <None Remove="Images\Pro3.jpg" />
+    <None Remove="Images\Pro4.jpg" />
+    <None Remove="Images\Pro5.jpg" />
+    <None Remove="Images\uniLogo.png" />
+    <None Remove="Images\UniversityLogo.png" />
+    <None Remove="Images\WhatsApp Image 2023-05-27 at 16.04.10.jpg" />
+    <None Remove="Images\WhatsApp Image 2023-05-28 at 17.25.41.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\122375.jpg" />
+    <Resource Include="Images\2.png" />
+    <Resource Include="Images\3.png" />
+    <Resource Include="Images\4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0-preview2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\1.png" />
+    <Resource Include="Images\6.png" />
+    <Resource Include="Images\7.png" />
+    <Resource Include="Images\8.png" />
+    <Resource Include="Images\9.png" />
+    <Resource Include="Images\Logo of the university of Ruhuna (2).jpg" />
+    <Resource Include="Images\Logo.png" />
+    <Resource Include="Images\Pro1.jpg" />
+    <Resource Include="Images\Pro2.jpg" />
+    <Resource Include="Images\Pro3.jpg" />
+    <Resource Include="Images\Pro4.jpg" />
+    <Resource Include="Images\Pro5.jpg" />
+    <Resource Include="Images\uniLogo.png" />
+    <Resource Include="Images\UniversityLogo.png" />
+    <Resource Include="Images\WhatsApp Image 2023-05-27 at 16.04.10.jpg" />
+    <Resource Include="Images\WhatsApp Image 2023-05-28 at 17.25.41.jpg" />
+  </ItemGroup>
+
+</Project>
